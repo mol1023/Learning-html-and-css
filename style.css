@@ -1,0 +1,67 @@
+p{
+    color : blue;
+}
+.aa[href^="https"]::before{
+    content: "🔗 ";
+}
+  
+.ab[href^="mailto"]::before{
+    content: "📧 ";
+}
+  
+.ac[href^="tel"]::before {
+    content: "📞 ";
+}
+  
+li{
+    margin-bottom: .5rem;
+    /*topico para lista*/
+}
+  
+body{
+    background-color: rgb(255, 0, 255);
+}
+.corpo{
+    background-color: #ff00ff; <!--vermelho e azul no maximo, ff-->
+}
+.kitten-image{    
+    border: 4mm ridge rgb(170, 50, 220, .6);
+}
+<!--detalhe para cor, css oferece suporte para abreviacao, 00f-->
+.sidebar{
+    text-align: right;
+}
+/*
+posso 
+h1, .style{
+    color: blue;
+}
+
+placeholder image = svg placeholder como background do topo do card
+every css starts with a ruleset
+seletor escolhe quais que vao ter o estilo aplicado ex:
+    div{
+        text-align: right;
+    }
+class e id, class para mudar varios de uma vez,
+<p class="book-summary"> oi </p>
+se style for para class
+.book-summary{}
+#site-description{}
+tag selector
+class atribute selector
+id atribute selector
+.right{
+    text-align:right;
+}
+font-style
+text-decoration
+text-transform
+font-weight
+<div class="right"></div>
+
+width padding e lenght  
+
+cursors css 
+https://css-tricks.com/almanac/properties/c/cursor/
+*/
